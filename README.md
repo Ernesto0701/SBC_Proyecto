@@ -39,7 +39,6 @@ El proyecto combina algoritmos de aprendizaje no supervisado con una interfaz gr
 - **Validación**: La calidad de los clústeres fue evaluada mediante el **Silhouette Score**, que confirmó su coherencia y separación adecuada.
 
 ## Aplicaciones Futuras
-- Comparación con otros algoritmos de agrupamiento, como DBSCAN o Agglomerative Clustering.
 - Ampliación del dataset con atributos adicionales como habilidades o movimientos.
 - Desarrollo de una interfaz más interactiva para la exploración de datos en tiempo real.
 
