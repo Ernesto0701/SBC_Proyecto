@@ -43,18 +43,6 @@ El proyecto combina algoritmos de aprendizaje no supervisado con una interfaz gr
 - Ampliación del dataset con atributos adicionales como habilidades o movimientos.
 - Desarrollo de una interfaz más interactiva para la exploración de datos en tiempo real.
 
-## Requisitos del Sistema
-- **Python** 3.8 o superior
-- Bibliotecas requeridas:
-  ```
-  pip install -r requirements.txt
-  ```
-  - `Scikit-learn`
-  - `Matplotlib`
-  - `Tkinter`
-  - `Plotly`
-  - `KneeLocator`
-
 ## Cómo Usar
 1. Clona el repositorio:
    ```
