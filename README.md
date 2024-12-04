@@ -48,12 +48,8 @@ El proyecto combina algoritmos de aprendizaje no supervisado con una interfaz gr
    ```
    git clone https://github.com/tu_usuario/tu_repositorio.git
    ```
-2. Instala las dependencias:
+2. Ejecuta el programa principal:
    ```
-   pip install -r requirements.txt
+   python ProyectoJorge_copy_4.py
    ```
-3. Ejecuta el programa principal:
-   ```
-   python main.py
-   ```
-4. Usa la interfaz gráfica para elegir estadísticas, filtrar Pokémon y realizar clustering.
+3. Usa la interfaz gráfica para elegir estadísticas, filtrar Pokémon y realizar clustering.
