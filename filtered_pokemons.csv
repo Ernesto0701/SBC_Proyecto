@@ -1,0 +1,650 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total,height,weight,abilities
+1,bulbasaur,ordinary,generation-i,nothing,grass,poison,45,49,49,65,65,45,318,7,69,overgrow chlorophyll 
+2,ivysaur,ordinary,generation-i,bulbasaur,grass,poison,60,62,63,80,80,60,405,10,130,overgrow chlorophyll 
+3,venusaur,ordinary,generation-i,ivysaur,grass,poison,80,82,83,100,100,80,525,20,1000,overgrow chlorophyll 
+4,charmander,ordinary,generation-i,nothing,fire,,39,52,43,60,50,65,309,6,85,blaze solar-power 
+5,charmeleon,ordinary,generation-i,charmander,fire,,58,64,58,80,65,80,405,11,190,blaze solar-power 
+6,charizard,ordinary,generation-i,charmeleon,fire,flying,78,84,78,109,85,100,534,17,905,blaze solar-power 
+7,squirtle,ordinary,generation-i,nothing,water,,44,48,65,50,64,43,314,5,90,torrent rain-dish 
+8,wartortle,ordinary,generation-i,squirtle,water,,59,63,80,65,80,58,405,10,225,torrent rain-dish 
+9,blastoise,ordinary,generation-i,wartortle,water,,79,83,100,85,105,78,530,16,855,torrent rain-dish 
+23,ekans,ordinary,generation-i,nothing,poison,,35,60,44,40,54,55,288,20,69,intimidate shed-skin unnerve 
+24,arbok,ordinary,generation-i,ekans,poison,,60,95,69,65,79,80,448,35,650,intimidate shed-skin unnerve 
+25,pikachu,ordinary,generation-i,pichu,electric,,35,55,40,50,50,90,320,4,60,static lightning-rod 
+26,raichu,ordinary,generation-i,pikachu,electric,,60,90,55,90,80,110,485,8,300,static lightning-rod 
+27,sandshrew,ordinary,generation-i,nothing,ground,,50,75,85,20,30,40,300,6,120,sand-veil sand-rush 
+28,sandslash,ordinary,generation-i,sandshrew,ground,,75,100,110,45,55,65,450,10,295,sand-veil sand-rush 
+35,clefairy,ordinary,generation-i,cleffa,fairy,,70,45,48,60,65,35,323,6,75,cute-charm magic-guard friend-guard 
+36,clefable,ordinary,generation-i,clefairy,fairy,,95,70,73,95,90,60,483,13,400,cute-charm magic-guard unaware 
+37,vulpix,ordinary,generation-i,nothing,fire,,38,41,40,50,65,65,299,6,99,flash-fire drought 
+38,ninetales,ordinary,generation-i,vulpix,fire,,73,76,75,81,100,100,505,11,199,flash-fire drought 
+39,jigglypuff,ordinary,generation-i,igglybuff,normal,fairy,115,45,20,45,25,20,270,5,55,cute-charm competitive friend-guard 
+40,wigglytuff,ordinary,generation-i,jigglypuff,normal,fairy,140,70,45,85,50,45,435,10,120,cute-charm competitive frisk 
+43,oddish,ordinary,generation-i,nothing,grass,poison,45,50,55,75,65,30,320,5,54,chlorophyll run-away 
+44,gloom,ordinary,generation-i,oddish,grass,poison,60,65,70,85,75,40,395,8,86,chlorophyll stench 
+45,vileplume,ordinary,generation-i,gloom,grass,poison,75,80,85,110,90,50,490,12,186,chlorophyll effect-spore 
+48,venonat,ordinary,generation-i,nothing,bug,poison,60,55,50,40,55,45,305,10,300,compound-eyes tinted-lens run-away 
+49,venomoth,ordinary,generation-i,venonat,bug,poison,70,65,60,90,75,90,450,15,125,shield-dust tinted-lens wonder-skin 
+51,dugtrio,ordinary,generation-i,diglett,ground,,35,100,50,50,70,120,425,7,333,sand-veil arena-trap sand-force 
+52,meowth,ordinary,generation-i,nothing,normal,,40,45,35,40,40,90,290,4,42,pickup technician unnerve 
+53,persian,ordinary,generation-i,meowth,normal,,65,70,60,65,65,115,440,10,320,limber technician unnerve 
+54,psyduck,ordinary,generation-i,nothing,water,,50,52,48,65,50,55,320,8,196,damp cloud-nine swift-swim 
+55,golduck,ordinary,generation-i,psyduck,water,,80,82,78,95,80,85,500,17,766,damp cloud-nine swift-swim 
+56,mankey,ordinary,generation-i,nothing,fighting,,40,80,35,35,45,70,305,5,280,vital-spirit anger-point defiant 
+57,primeape,ordinary,generation-i,mankey,fighting,,65,105,60,60,70,95,455,10,320,vital-spirit anger-point defiant 
+58,growlithe,ordinary,generation-i,nothing,fire,,55,70,45,70,50,60,350,7,190,intimidate flash-fire justified 
+59,arcanine,ordinary,generation-i,growlithe,fire,,90,110,80,100,80,95,555,19,1550,intimidate flash-fire justified 
+60,poliwag,ordinary,generation-i,nothing,water,,40,50,40,40,40,90,300,6,124,water-absorb damp swift-swim 
+61,poliwhirl,ordinary,generation-i,poliwag,water,,65,65,65,50,50,90,385,10,200,water-absorb damp swift-swim 
+69,bellsprout,ordinary,generation-i,nothing,grass,poison,50,75,35,70,30,40,300,7,40,chlorophyll gluttony 
+70,weepinbell,ordinary,generation-i,bellsprout,grass,poison,65,90,50,85,45,55,390,10,64,chlorophyll gluttony 
+71,victreebel,ordinary,generation-i,weepinbell,grass,poison,80,105,65,100,70,70,490,17,155,chlorophyll gluttony 
+72,tentacool,ordinary,generation-i,nothing,water,poison,40,40,35,50,100,70,335,9,455,clear-body liquid-ooze rain-dish 
+73,tentacruel,ordinary,generation-i,tentacool,water,poison,80,70,65,80,120,100,515,16,550,clear-body liquid-ooze rain-dish 
+74,geodude,ordinary,generation-i,nothing,rock,ground,40,80,100,30,30,20,300,4,200,rock-head sturdy sand-veil 
+75,graveler,ordinary,generation-i,geodude,rock,ground,55,95,115,45,45,35,390,10,1050,rock-head sturdy sand-veil 
+76,golem,ordinary,generation-i,graveler,rock,ground,80,120,130,55,65,45,495,14,3000,rock-head sturdy sand-veil 
+79,slowpoke,ordinary,generation-i,nothing,water,psychic,90,65,65,40,40,15,315,12,360,oblivious own-tempo regenerator 
+88,grimer,ordinary,generation-i,nothing,poison,,80,80,50,40,50,25,325,9,300,stench sticky-hold poison-touch 
+89,muk,ordinary,generation-i,grimer,poison,,105,105,75,65,100,50,500,12,300,stench sticky-hold poison-touch 
+90,shellder,ordinary,generation-i,nothing,water,,30,65,100,45,25,40,305,3,40,shell-armor skill-link overcoat 
+91,cloyster,ordinary,generation-i,shellder,water,ice,50,95,180,85,45,70,525,15,1325,shell-armor skill-link overcoat 
+92,gastly,ordinary,generation-i,nothing,ghost,poison,30,35,30,100,35,80,310,13,1,levitate 
+93,haunter,ordinary,generation-i,gastly,ghost,poison,45,50,45,115,55,95,405,16,1,levitate 
+94,gengar,ordinary,generation-i,haunter,ghost,poison,60,65,60,130,75,110,500,15,405,cursed-body 
+96,drowzee,ordinary,generation-i,nothing,psychic,,60,48,45,43,90,42,328,10,324,insomnia forewarn inner-focus 
+97,hypno,ordinary,generation-i,drowzee,psychic,,85,73,70,73,115,67,483,16,756,insomnia forewarn inner-focus 
+100,voltorb,ordinary,generation-i,nothing,electric,,40,30,50,55,55,100,330,5,104,soundproof static aftermath 
+101,electrode,ordinary,generation-i,voltorb,electric,,60,50,70,80,80,150,490,12,666,soundproof static aftermath 
+102,exeggcute,ordinary,generation-i,nothing,grass,psychic,60,40,80,60,45,40,325,4,25,chlorophyll harvest 
+106,hitmonlee,ordinary,generation-i,tyrogue,fighting,,50,120,53,35,110,87,455,15,498,limber reckless unburden 
+107,hitmonchan,ordinary,generation-i,tyrogue,fighting,,50,105,79,35,110,76,455,14,502,keen-eye iron-fist inner-focus 
+109,koffing,ordinary,generation-i,nothing,poison,,40,65,95,60,45,35,340,6,10,levitate neutralizing-gas stench 
+111,rhyhorn,ordinary,generation-i,nothing,ground,rock,80,85,95,30,30,25,345,10,1150,lightning-rod rock-head reckless 
+112,rhydon,ordinary,generation-i,rhyhorn,ground,rock,105,130,120,45,45,40,485,19,1200,lightning-rod rock-head reckless 
+113,chansey,ordinary,generation-i,happiny,normal,,250,5,5,35,105,50,450,11,346,natural-cure serene-grace healer 
+116,horsea,ordinary,generation-i,nothing,water,,30,40,70,70,25,60,295,4,80,swift-swim sniper damp 
+117,seadra,ordinary,generation-i,horsea,water,,55,65,95,95,45,85,440,12,250,poison-point sniper damp 
+123,scyther,ordinary,generation-i,nothing,bug,flying,70,110,80,55,80,105,500,15,560,swarm technician steadfast 
+125,electabuzz,ordinary,generation-i,elekid,electric,,65,83,57,95,85,105,490,11,300,static vital-spirit 
+126,magmar,ordinary,generation-i,magby,fire,,65,95,57,100,85,93,495,13,445,flame-body vital-spirit 
+128,tauros,ordinary,generation-i,nothing,normal,,75,100,95,40,70,110,490,14,884,intimidate anger-point sheer-force 
+129,magikarp,ordinary,generation-i,nothing,water,,20,10,55,15,20,80,200,9,100,swift-swim rattled 
+130,gyarados,ordinary,generation-i,magikarp,water,flying,95,125,79,60,100,81,540,65,2350,intimidate moxie 
+131,lapras,ordinary,generation-i,nothing,water,ice,130,85,80,85,95,60,535,25,2200,water-absorb shell-armor hydration 
+132,ditto,ordinary,generation-i,nothing,normal,,48,48,48,48,48,48,288,3,40,limber imposter 
+133,eevee,ordinary,generation-i,nothing,normal,,55,55,50,45,65,55,325,3,65,run-away adaptability anticipation 
+134,vaporeon,ordinary,generation-i,eevee,water,,130,65,60,110,95,65,525,10,290,water-absorb hydration 
+135,jolteon,ordinary,generation-i,eevee,electric,,65,65,60,110,95,130,525,8,245,volt-absorb quick-feet 
+136,flareon,ordinary,generation-i,eevee,fire,,65,130,60,95,110,65,525,9,250,flash-fire guts 
+137,porygon,ordinary,generation-i,nothing,normal,,65,60,70,85,75,40,395,8,365,trace download analytic 
+143,snorlax,ordinary,generation-i,munchlax,normal,,160,110,65,65,110,30,540,21,4600,immunity thick-fat gluttony 
+147,dratini,ordinary,generation-i,nothing,dragon,,41,64,45,50,50,50,300,18,33,shed-skin marvel-scale 
+148,dragonair,ordinary,generation-i,dratini,dragon,,61,84,65,70,70,70,420,40,165,shed-skin marvel-scale 
+149,dragonite,ordinary,generation-i,dragonair,dragon,flying,91,134,95,100,100,80,600,22,2100,inner-focus multiscale 
+152,chikorita,ordinary,generation-ii,nothing,grass,,45,49,65,49,65,45,318,9,64,overgrow leaf-guard 
+153,bayleef,ordinary,generation-ii,chikorita,grass,,60,62,80,63,80,60,405,12,158,overgrow leaf-guard 
+154,meganium,ordinary,generation-ii,bayleef,grass,,80,82,100,83,100,80,525,18,1005,overgrow leaf-guard 
+155,cyndaquil,ordinary,generation-ii,nothing,fire,,39,52,43,60,50,65,309,5,79,blaze flash-fire 
+156,quilava,ordinary,generation-ii,cyndaquil,fire,,58,64,58,80,65,80,405,9,190,blaze flash-fire 
+157,typhlosion,ordinary,generation-ii,quilava,fire,,78,84,78,109,85,100,534,17,795,blaze flash-fire 
+158,totodile,ordinary,generation-ii,nothing,water,,50,65,64,44,48,43,314,6,95,torrent sheer-force 
+159,croconaw,ordinary,generation-ii,totodile,water,,65,80,80,59,63,58,405,11,250,torrent sheer-force 
+160,feraligatr,ordinary,generation-ii,croconaw,water,,85,105,100,79,83,78,530,23,888,torrent sheer-force 
+161,sentret,ordinary,generation-ii,nothing,normal,,35,46,34,35,45,20,215,8,60,run-away keen-eye frisk 
+162,furret,ordinary,generation-ii,sentret,normal,,85,76,64,45,55,90,415,18,325,run-away keen-eye frisk 
+163,hoothoot,ordinary,generation-ii,nothing,normal,flying,60,30,30,36,56,50,262,7,212,insomnia keen-eye tinted-lens 
+164,noctowl,ordinary,generation-ii,hoothoot,normal,flying,100,50,50,86,96,70,452,16,408,insomnia keen-eye tinted-lens 
+167,spinarak,ordinary,generation-ii,nothing,bug,poison,40,60,40,40,40,30,250,5,85,swarm insomnia sniper 
+168,ariados,ordinary,generation-ii,spinarak,bug,poison,70,90,70,60,70,40,400,11,335,swarm insomnia sniper 
+170,chinchou,ordinary,generation-ii,nothing,water,electric,75,38,38,56,56,67,330,5,120,volt-absorb illuminate water-absorb 
+171,lanturn,ordinary,generation-ii,chinchou,water,electric,125,58,58,76,76,67,460,12,225,volt-absorb illuminate water-absorb 
+172,pichu,baby,generation-ii,nothing,electric,,20,40,15,35,35,60,205,3,20,static lightning-rod 
+173,cleffa,baby,generation-ii,nothing,fairy,,50,25,28,45,55,15,218,3,30,cute-charm magic-guard friend-guard 
+174,igglybuff,baby,generation-ii,nothing,normal,fairy,90,30,15,40,20,15,210,3,10,cute-charm competitive friend-guard 
+179,mareep,ordinary,generation-ii,nothing,electric,,55,40,40,65,45,35,280,6,78,static plus 
+181,ampharos,ordinary,generation-ii,flaaffy,electric,,90,75,85,115,90,55,510,14,615,static plus 
+183,marill,ordinary,generation-ii,azurill,water,fairy,70,20,50,20,50,40,250,4,85,thick-fat huge-power sap-sipper 
+184,azumarill,ordinary,generation-ii,marill,water,fairy,100,50,80,60,80,50,420,8,285,thick-fat huge-power sap-sipper 
+185,sudowoodo,ordinary,generation-ii,bonsly,rock,,70,100,115,30,65,30,410,12,380,sturdy rock-head rattled 
+186,politoed,ordinary,generation-ii,poliwhirl,water,,90,75,75,90,100,70,500,11,339,water-absorb damp drizzle 
+187,hoppip,ordinary,generation-ii,nothing,grass,flying,35,35,40,35,55,50,250,4,5,chlorophyll leaf-guard infiltrator 
+188,skiploom,ordinary,generation-ii,hoppip,grass,flying,55,45,50,45,65,80,340,6,10,chlorophyll leaf-guard infiltrator 
+189,jumpluff,ordinary,generation-ii,skiploom,grass,flying,75,55,70,55,95,110,460,8,30,chlorophyll leaf-guard infiltrator 
+190,aipom,ordinary,generation-ii,nothing,normal,,55,70,55,40,55,85,360,8,115,run-away pickup skill-link 
+191,sunkern,ordinary,generation-ii,nothing,grass,,30,30,30,30,30,30,180,3,18,chlorophyll solar-power early-bird 
+192,sunflora,ordinary,generation-ii,sunkern,grass,,75,75,55,105,85,30,425,8,85,chlorophyll solar-power early-bird 
+193,yanma,ordinary,generation-ii,nothing,bug,flying,65,65,45,75,45,95,390,12,380,speed-boost compound-eyes frisk 
+194,wooper,ordinary,generation-ii,nothing,water,ground,55,45,45,25,25,15,210,4,85,damp water-absorb unaware 
+195,quagsire,ordinary,generation-ii,wooper,water,ground,95,85,85,65,65,35,430,14,750,damp water-absorb unaware 
+196,espeon,ordinary,generation-ii,eevee,psychic,,65,65,60,130,95,110,525,9,265,synchronize magic-bounce 
+197,umbreon,ordinary,generation-ii,eevee,dark,,95,65,110,60,130,65,525,10,270,synchronize inner-focus 
+198,murkrow,ordinary,generation-ii,nothing,dark,flying,60,85,42,85,42,91,405,5,21,insomnia super-luck prankster 
+199,slowking,ordinary,generation-ii,slowpoke,water,psychic,95,75,80,100,110,30,490,20,795,oblivious own-tempo regenerator 
+200,misdreavus,ordinary,generation-ii,nothing,ghost,,60,60,60,85,85,85,435,7,10,levitate 
+203,girafarig,ordinary,generation-ii,nothing,normal,psychic,70,80,65,90,65,85,455,15,415,inner-focus early-bird sap-sipper 
+204,pineco,ordinary,generation-ii,nothing,bug,,50,65,90,35,35,15,290,6,72,sturdy overcoat 
+205,forretress,ordinary,generation-ii,pineco,bug,steel,75,90,140,60,60,40,465,12,1258,sturdy overcoat 
+206,dunsparce,ordinary,generation-ii,nothing,normal,,100,70,70,65,65,45,415,15,140,serene-grace run-away rattled 
+207,gligar,ordinary,generation-ii,nothing,ground,flying,65,75,105,35,65,85,430,11,648,hyper-cutter sand-veil immunity 
+209,snubbull,ordinary,generation-ii,nothing,fairy,,60,80,50,40,40,30,300,6,78,intimidate run-away rattled 
+210,granbull,ordinary,generation-ii,snubbull,fairy,,90,120,75,60,60,45,450,14,487,intimidate quick-feet rattled 
+212,scizor,ordinary,generation-ii,scyther,bug,steel,70,130,100,55,80,65,500,18,1180,swarm technician light-metal 
+214,heracross,ordinary,generation-ii,nothing,bug,fighting,80,125,75,40,95,85,500,15,540,swarm guts moxie 
+215,sneasel,ordinary,generation-ii,nothing,dark,ice,55,95,55,35,75,115,430,9,280,inner-focus keen-eye pickpocket 
+216,teddiursa,ordinary,generation-ii,nothing,normal,,60,80,50,50,50,40,330,6,88,pickup quick-feet honey-gather 
+217,ursaring,ordinary,generation-ii,teddiursa,normal,,90,130,75,75,75,55,500,18,1258,guts quick-feet unnerve 
+218,slugma,ordinary,generation-ii,nothing,fire,,40,40,40,70,40,20,250,7,350,magma-armor flame-body weak-armor 
+219,magcargo,ordinary,generation-ii,slugma,fire,rock,60,50,120,90,80,30,430,8,550,magma-armor flame-body weak-armor 
+220,swinub,ordinary,generation-ii,nothing,ice,ground,50,50,40,30,30,50,250,4,65,oblivious snow-cloak thick-fat 
+221,piloswine,ordinary,generation-ii,swinub,ice,ground,100,100,80,60,60,50,450,11,558,oblivious snow-cloak thick-fat 
+225,delibird,ordinary,generation-ii,nothing,ice,flying,45,55,45,65,45,75,330,9,160,vital-spirit hustle insomnia 
+227,skarmory,ordinary,generation-ii,nothing,steel,flying,65,80,140,40,70,70,465,17,505,keen-eye sturdy weak-armor 
+228,houndour,ordinary,generation-ii,nothing,dark,fire,45,60,30,80,50,65,330,6,108,early-bird flash-fire unnerve 
+229,houndoom,ordinary,generation-ii,houndour,dark,fire,75,90,50,110,80,95,500,14,350,early-bird flash-fire unnerve 
+230,kingdra,ordinary,generation-ii,seadra,water,dragon,75,95,95,95,95,85,540,18,1520,swift-swim sniper damp 
+231,phanpy,ordinary,generation-ii,nothing,ground,,90,60,60,40,40,40,330,5,335,pickup sand-veil 
+232,donphan,ordinary,generation-ii,phanpy,ground,,90,120,120,60,60,50,500,11,1200,sturdy sand-veil 
+233,porygon2,ordinary,generation-ii,porygon,normal,,85,80,90,105,95,60,515,6,325,trace download analytic 
+234,stantler,ordinary,generation-ii,nothing,normal,,73,95,62,85,65,85,465,14,712,intimidate frisk sap-sipper 
+235,smeargle,ordinary,generation-ii,nothing,normal,,55,20,35,20,45,75,250,12,580,own-tempo technician moody 
+236,tyrogue,baby,generation-ii,nothing,fighting,,35,35,35,35,35,35,210,7,210,guts steadfast vital-spirit 
+237,hitmontop,ordinary,generation-ii,tyrogue,fighting,,50,95,95,35,110,70,455,14,480,intimidate technician steadfast 
+239,elekid,baby,generation-ii,nothing,electric,,45,63,37,65,55,95,360,6,235,static vital-spirit 
+240,magby,baby,generation-ii,nothing,fire,,45,75,37,70,55,83,365,7,214,flame-body vital-spirit 
+242,blissey,ordinary,generation-ii,chansey,normal,,255,10,10,75,135,55,540,15,468,natural-cure serene-grace healer 
+246,larvitar,ordinary,generation-ii,nothing,rock,ground,50,64,50,45,50,41,300,6,720,guts sand-veil 
+247,pupitar,ordinary,generation-ii,larvitar,rock,ground,70,84,70,65,70,51,410,12,1520,shed-skin 
+248,tyranitar,ordinary,generation-ii,pupitar,rock,dark,100,134,110,95,100,61,600,20,2020,sand-stream unnerve 
+252,treecko,ordinary,generation-iii,nothing,grass,,40,45,35,65,55,70,310,5,50,overgrow unburden 
+253,grovyle,ordinary,generation-iii,treecko,grass,,50,65,45,85,65,95,405,9,216,overgrow unburden 
+254,sceptile,ordinary,generation-iii,grovyle,grass,,70,85,65,105,85,120,530,17,522,overgrow unburden 
+255,torchic,ordinary,generation-iii,nothing,fire,,45,60,40,70,50,45,310,4,25,blaze speed-boost 
+256,combusken,ordinary,generation-iii,torchic,fire,fighting,60,85,60,85,60,55,405,9,195,blaze speed-boost 
+257,blaziken,ordinary,generation-iii,combusken,fire,fighting,80,120,70,110,70,80,530,19,520,blaze speed-boost 
+258,mudkip,ordinary,generation-iii,nothing,water,,50,70,50,50,50,40,310,4,76,torrent damp 
+259,marshtomp,ordinary,generation-iii,mudkip,water,ground,70,85,70,60,70,50,405,7,280,torrent damp 
+260,swampert,ordinary,generation-iii,marshtomp,water,ground,100,110,90,85,90,60,535,15,819,torrent damp 
+261,poochyena,ordinary,generation-iii,nothing,dark,,35,55,35,30,30,35,220,5,136,run-away quick-feet rattled 
+262,mightyena,ordinary,generation-iii,poochyena,dark,,70,90,70,60,60,70,420,10,370,intimidate quick-feet moxie 
+270,lotad,ordinary,generation-iii,nothing,water,grass,40,30,30,40,50,30,220,5,26,swift-swim rain-dish own-tempo 
+271,lombre,ordinary,generation-iii,lotad,water,grass,60,50,50,60,70,50,340,12,325,swift-swim rain-dish own-tempo 
+272,ludicolo,ordinary,generation-iii,lombre,water,grass,80,70,70,90,100,70,480,15,550,swift-swim rain-dish own-tempo 
+273,seedot,ordinary,generation-iii,nothing,grass,,40,40,50,30,30,30,220,5,40,chlorophyll early-bird pickpocket 
+274,nuzleaf,ordinary,generation-iii,seedot,grass,dark,70,70,40,60,40,60,340,10,280,chlorophyll early-bird pickpocket 
+275,shiftry,ordinary,generation-iii,nuzleaf,grass,dark,90,100,60,90,60,80,480,13,596,chlorophyll early-bird pickpocket 
+278,wingull,ordinary,generation-iii,nothing,water,flying,40,30,30,55,30,85,270,6,95,keen-eye hydration rain-dish 
+279,pelipper,ordinary,generation-iii,wingull,water,flying,60,50,100,95,70,65,440,12,280,keen-eye drizzle rain-dish 
+280,ralts,ordinary,generation-iii,nothing,psychic,fairy,28,25,25,45,35,40,198,4,66,synchronize trace telepathy 
+281,kirlia,ordinary,generation-iii,ralts,psychic,fairy,38,35,35,65,55,50,278,8,202,synchronize trace telepathy 
+282,gardevoir,ordinary,generation-iii,kirlia,psychic,fairy,68,65,65,125,115,80,518,16,484,synchronize trace telepathy 
+283,surskit,ordinary,generation-iii,nothing,bug,water,40,30,32,50,52,65,269,5,17,swift-swim rain-dish 
+284,masquerain,ordinary,generation-iii,surskit,bug,flying,70,60,62,100,82,80,454,8,36,intimidate unnerve 
+285,shroomish,ordinary,generation-iii,nothing,grass,,60,40,60,40,60,35,295,4,45,effect-spore poison-heal quick-feet 
+286,breloom,ordinary,generation-iii,shroomish,grass,fighting,60,130,80,60,60,70,460,12,392,effect-spore poison-heal technician 
+287,slakoth,ordinary,generation-iii,nothing,normal,,60,60,60,35,35,30,280,8,240,truant 
+288,vigoroth,ordinary,generation-iii,slakoth,normal,,80,80,80,55,55,90,440,14,465,vital-spirit 
+289,slaking,ordinary,generation-iii,vigoroth,normal,,150,160,100,95,65,100,670,20,1305,truant 
+296,makuhita,ordinary,generation-iii,nothing,fighting,,72,60,30,20,30,25,237,10,864,thick-fat guts sheer-force 
+297,hariyama,ordinary,generation-iii,makuhita,fighting,,144,120,60,40,60,50,474,23,2538,thick-fat guts sheer-force 
+299,nosepass,ordinary,generation-iii,nothing,rock,,30,45,135,45,90,30,375,10,970,sturdy magnet-pull sand-force 
+302,sableye,ordinary,generation-iii,nothing,dark,ghost,50,75,75,65,65,50,380,5,110,keen-eye stall prankster 
+307,meditite,ordinary,generation-iii,nothing,fighting,psychic,30,40,55,40,55,60,280,6,112,pure-power telepathy 
+308,medicham,ordinary,generation-iii,meditite,fighting,psychic,60,60,75,60,75,80,410,13,315,pure-power telepathy 
+311,plusle,ordinary,generation-iii,nothing,electric,,60,50,40,85,75,95,405,4,42,plus lightning-rod 
+312,minun,ordinary,generation-iii,nothing,electric,,60,40,50,75,85,95,405,4,42,minus volt-absorb 
+313,volbeat,ordinary,generation-iii,nothing,bug,,65,73,75,47,85,85,430,7,177,illuminate swarm prankster 
+314,illumise,ordinary,generation-iii,nothing,bug,,65,47,75,73,85,85,430,6,177,oblivious tinted-lens prankster 
+316,gulpin,ordinary,generation-iii,nothing,poison,,70,43,53,43,53,40,302,4,103,liquid-ooze sticky-hold gluttony 
+317,swalot,ordinary,generation-iii,gulpin,poison,,100,73,83,73,83,55,467,17,800,liquid-ooze sticky-hold gluttony 
+322,numel,ordinary,generation-iii,nothing,fire,ground,60,60,40,65,45,35,305,7,240,oblivious simple own-tempo 
+323,camerupt,ordinary,generation-iii,numel,fire,ground,70,100,70,105,75,40,460,19,2200,magma-armor solid-rock anger-point 
+324,torkoal,ordinary,generation-iii,nothing,fire,,70,85,140,85,70,20,470,5,804,white-smoke drought shell-armor 
+325,spoink,ordinary,generation-iii,nothing,psychic,,60,25,35,70,80,60,330,7,306,thick-fat own-tempo gluttony 
+326,grumpig,ordinary,generation-iii,spoink,psychic,,80,45,65,90,110,80,470,9,715,thick-fat own-tempo gluttony 
+328,trapinch,ordinary,generation-iii,nothing,ground,,45,100,45,45,45,10,290,7,150,hyper-cutter arena-trap sheer-force 
+329,vibrava,ordinary,generation-iii,trapinch,ground,dragon,50,70,50,50,50,70,340,11,153,levitate 
+330,flygon,ordinary,generation-iii,vibrava,ground,dragon,80,100,80,80,80,100,520,20,820,levitate 
+331,cacnea,ordinary,generation-iii,nothing,grass,,50,85,40,85,40,35,335,4,513,sand-veil water-absorb 
+332,cacturne,ordinary,generation-iii,cacnea,grass,dark,70,115,60,115,60,55,475,13,774,sand-veil water-absorb 
+333,swablu,ordinary,generation-iii,nothing,normal,flying,45,40,60,40,75,50,310,4,12,natural-cure cloud-nine 
+334,altaria,ordinary,generation-iii,swablu,dragon,flying,75,70,90,70,105,80,490,11,206,natural-cure cloud-nine 
+335,zangoose,ordinary,generation-iii,nothing,normal,,73,115,60,60,60,90,458,13,403,immunity toxic-boost 
+336,seviper,ordinary,generation-iii,nothing,poison,,73,100,60,100,60,65,458,27,525,shed-skin infiltrator 
+339,barboach,ordinary,generation-iii,nothing,water,ground,50,48,43,46,41,60,288,4,19,oblivious anticipation hydration 
+340,whiscash,ordinary,generation-iii,barboach,water,ground,110,78,73,76,71,60,468,9,236,oblivious anticipation hydration 
+341,corphish,ordinary,generation-iii,nothing,water,,43,80,65,50,35,35,308,6,115,hyper-cutter shell-armor adaptability 
+342,crawdaunt,ordinary,generation-iii,corphish,water,dark,63,120,85,90,55,55,468,11,328,hyper-cutter shell-armor adaptability 
+349,feebas,ordinary,generation-iii,nothing,water,,20,15,20,10,55,80,200,6,74,swift-swim oblivious adaptability 
+350,milotic,ordinary,generation-iii,feebas,water,,95,60,79,100,125,81,540,62,1620,marvel-scale competitive cute-charm 
+353,shuppet,ordinary,generation-iii,nothing,ghost,,44,75,35,63,33,45,295,6,23,insomnia frisk cursed-body 
+354,banette,ordinary,generation-iii,shuppet,ghost,,64,115,65,83,63,65,455,11,125,insomnia frisk cursed-body 
+355,duskull,ordinary,generation-iii,nothing,ghost,,20,40,90,30,90,25,295,8,150,levitate frisk 
+356,dusclops,ordinary,generation-iii,duskull,ghost,,40,70,130,60,130,25,455,16,306,pressure frisk 
+357,tropius,ordinary,generation-iii,nothing,grass,flying,99,68,83,72,87,51,460,20,1000,chlorophyll solar-power harvest 
+358,chimecho,ordinary,generation-iii,chingling,psychic,,75,50,80,95,90,65,455,6,10,levitate 
+361,snorunt,ordinary,generation-iii,nothing,ice,,50,50,50,50,50,50,300,7,168,inner-focus ice-body moody 
+362,glalie,ordinary,generation-iii,snorunt,ice,,80,80,80,80,80,80,480,15,2565,inner-focus ice-body moody 
+370,luvdisc,ordinary,generation-iii,nothing,water,,43,30,55,40,65,97,330,6,87,swift-swim hydration 
+371,bagon,ordinary,generation-iii,nothing,dragon,,45,75,60,40,30,50,300,6,421,rock-head sheer-force 
+372,shelgon,ordinary,generation-iii,bagon,dragon,,65,95,100,60,50,50,420,11,1105,rock-head overcoat 
+373,salamence,ordinary,generation-iii,shelgon,dragon,flying,95,135,80,110,80,100,600,15,1026,intimidate moxie 
+374,beldum,ordinary,generation-iii,nothing,steel,psychic,40,55,80,35,60,30,300,6,952,clear-body light-metal 
+375,metang,ordinary,generation-iii,beldum,steel,psychic,60,75,100,55,80,50,420,12,2025,clear-body light-metal 
+376,metagross,ordinary,generation-iii,metang,steel,psychic,80,135,130,95,90,70,600,16,5500,clear-body light-metal 
+387,turtwig,ordinary,generation-iv,nothing,grass,,55,68,64,45,55,31,318,4,102,overgrow shell-armor 
+388,grotle,ordinary,generation-iv,turtwig,grass,,75,89,85,55,65,36,405,11,970,overgrow shell-armor 
+389,torterra,ordinary,generation-iv,grotle,grass,ground,95,109,105,75,85,56,525,22,3100,overgrow shell-armor 
+390,chimchar,ordinary,generation-iv,nothing,fire,,44,58,44,58,44,61,309,5,62,blaze iron-fist 
+391,monferno,ordinary,generation-iv,chimchar,fire,fighting,64,78,52,78,52,81,405,9,220,blaze iron-fist 
+392,infernape,ordinary,generation-iv,monferno,fire,fighting,76,104,71,104,71,108,534,12,550,blaze iron-fist 
+393,piplup,ordinary,generation-iv,nothing,water,,53,51,53,61,56,40,314,4,52,torrent defiant 
+394,prinplup,ordinary,generation-iv,piplup,water,,64,66,68,81,76,50,405,8,230,torrent defiant 
+395,empoleon,ordinary,generation-iv,prinplup,water,steel,84,86,88,111,101,60,530,17,845,torrent defiant 
+396,starly,ordinary,generation-iv,nothing,normal,flying,40,55,30,30,30,60,245,3,20,keen-eye reckless 
+397,staravia,ordinary,generation-iv,starly,normal,flying,55,75,50,40,40,80,340,6,155,intimidate reckless 
+398,staraptor,ordinary,generation-iv,staravia,normal,flying,85,120,70,50,60,100,485,12,249,intimidate reckless 
+401,kricketot,ordinary,generation-iv,nothing,bug,,37,25,41,25,41,25,194,3,22,shed-skin run-away 
+402,kricketune,ordinary,generation-iv,kricketot,bug,,77,85,51,55,51,65,384,10,255,swarm technician 
+403,shinx,ordinary,generation-iv,nothing,electric,,45,65,34,40,34,45,263,5,95,rivalry intimidate guts 
+404,luxio,ordinary,generation-iv,shinx,electric,,60,85,49,60,49,60,363,9,305,rivalry intimidate guts 
+405,luxray,ordinary,generation-iv,luxio,electric,,80,120,79,95,79,70,523,14,420,rivalry intimidate guts 
+408,cranidos,ordinary,generation-iv,nothing,rock,,67,125,40,30,30,58,350,9,315,mold-breaker sheer-force 
+409,rampardos,ordinary,generation-iv,cranidos,rock,,97,165,60,65,50,58,495,16,1025,mold-breaker sheer-force 
+411,bastiodon,ordinary,generation-iv,shieldon,rock,steel,60,52,168,47,138,30,495,13,1495,sturdy soundproof 
+415,combee,ordinary,generation-iv,nothing,bug,flying,30,30,42,30,42,70,244,3,55,honey-gather hustle 
+416,vespiquen,ordinary,generation-iv,combee,bug,flying,70,80,102,80,102,40,474,12,385,pressure unnerve 
+417,pachirisu,ordinary,generation-iv,nothing,electric,,60,45,70,45,90,95,405,4,39,run-away pickup volt-absorb 
+418,buizel,ordinary,generation-iv,nothing,water,,55,65,35,60,30,85,330,7,295,swift-swim water-veil 
+419,floatzel,ordinary,generation-iv,buizel,water,,85,105,55,85,50,115,495,11,335,swift-swim water-veil 
+422,shellos,ordinary,generation-iv,nothing,water,,76,48,48,57,62,34,325,3,63,sticky-hold storm-drain sand-force 
+423,gastrodon,ordinary,generation-iv,shellos,water,ground,111,83,68,92,82,39,475,9,299,sticky-hold storm-drain sand-force 
+424,ambipom,ordinary,generation-iv,aipom,normal,,75,100,66,60,66,115,482,12,203,technician pickup skill-link 
+425,drifloon,ordinary,generation-iv,nothing,ghost,flying,90,50,34,60,44,70,348,4,12,aftermath unburden flare-boost 
+426,drifblim,ordinary,generation-iv,drifloon,ghost,flying,150,80,44,90,54,80,498,12,150,aftermath unburden flare-boost 
+429,mismagius,ordinary,generation-iv,misdreavus,ghost,,60,60,60,105,105,105,495,9,44,levitate 
+430,honchkrow,ordinary,generation-iv,murkrow,dark,flying,100,125,52,105,52,71,505,9,273,insomnia super-luck moxie 
+433,chingling,baby,generation-iv,nothing,psychic,,45,30,50,65,50,45,285,2,6,levitate 
+434,stunky,ordinary,generation-iv,nothing,poison,dark,63,63,47,41,41,74,329,4,192,stench aftermath keen-eye 
+435,skuntank,ordinary,generation-iv,stunky,poison,dark,103,93,67,71,61,84,479,10,380,stench aftermath keen-eye 
+436,bronzor,ordinary,generation-iv,nothing,steel,psychic,57,24,86,24,86,23,300,5,605,levitate heatproof heavy-metal 
+437,bronzong,ordinary,generation-iv,bronzor,steel,psychic,67,89,116,79,116,33,500,13,1870,levitate heatproof heavy-metal 
+438,bonsly,baby,generation-iv,nothing,rock,,50,80,95,10,45,10,290,5,150,sturdy rock-head rattled 
+440,happiny,baby,generation-iv,nothing,normal,,100,5,5,15,65,30,220,6,244,natural-cure serene-grace friend-guard 
+442,spiritomb,ordinary,generation-iv,nothing,ghost,dark,50,92,108,92,108,35,485,10,1080,pressure infiltrator 
+443,gible,ordinary,generation-iv,nothing,dragon,ground,58,70,45,40,45,42,300,7,205,sand-veil rough-skin 
+444,gabite,ordinary,generation-iv,gible,dragon,ground,68,90,65,50,55,82,410,14,560,sand-veil rough-skin 
+445,garchomp,ordinary,generation-iv,gabite,dragon,ground,108,130,95,80,85,102,600,19,950,sand-veil rough-skin 
+446,munchlax,baby,generation-iv,nothing,normal,,135,85,40,40,85,5,390,6,1050,pickup thick-fat gluttony 
+447,riolu,baby,generation-iv,nothing,fighting,,40,70,40,35,40,60,285,7,202,steadfast inner-focus prankster 
+448,lucario,ordinary,generation-iv,riolu,fighting,steel,70,110,70,115,70,90,525,12,540,steadfast inner-focus justified 
+449,hippopotas,ordinary,generation-iv,nothing,ground,,68,72,78,38,42,32,330,8,495,sand-stream sand-force 
+450,hippowdon,ordinary,generation-iv,hippopotas,ground,,108,112,118,68,72,47,525,20,3000,sand-stream sand-force 
+453,croagunk,ordinary,generation-iv,nothing,poison,fighting,48,61,40,61,40,50,300,7,230,anticipation dry-skin poison-touch 
+454,toxicroak,ordinary,generation-iv,croagunk,poison,fighting,83,106,65,86,65,85,490,13,444,anticipation dry-skin poison-touch 
+456,finneon,ordinary,generation-iv,nothing,water,,49,49,56,49,61,66,330,4,70,swift-swim storm-drain water-veil 
+457,lumineon,ordinary,generation-iv,finneon,water,,69,69,76,69,86,91,460,12,240,swift-swim storm-drain water-veil 
+459,snover,ordinary,generation-iv,nothing,grass,ice,60,62,50,62,60,40,334,10,505,snow-warning soundproof 
+460,abomasnow,ordinary,generation-iv,snover,grass,ice,90,92,75,92,85,60,494,22,1355,snow-warning soundproof 
+461,weavile,ordinary,generation-iv,sneasel,dark,ice,70,120,65,45,85,125,510,11,340,pressure pickpocket 
+462,magnezone,ordinary,generation-iv,magneton,electric,steel,70,70,115,130,90,60,535,12,1800,magnet-pull sturdy analytic 
+464,rhyperior,ordinary,generation-iv,rhydon,ground,rock,115,140,130,55,55,40,535,24,2828,lightning-rod solid-rock reckless 
+466,electivire,ordinary,generation-iv,electabuzz,electric,,75,123,67,95,85,95,540,18,1386,motor-drive vital-spirit 
+467,magmortar,ordinary,generation-iv,magmar,fire,,75,95,67,125,95,83,540,16,680,flame-body vital-spirit 
+469,yanmega,ordinary,generation-iv,yanma,bug,flying,86,76,86,116,56,95,515,19,515,speed-boost tinted-lens frisk 
+470,leafeon,ordinary,generation-iv,eevee,grass,,65,110,130,60,65,95,525,10,255,leaf-guard chlorophyll 
+471,glaceon,ordinary,generation-iv,eevee,ice,,65,60,110,130,95,65,525,8,259,snow-cloak ice-body 
+472,gliscor,ordinary,generation-iv,gligar,ground,flying,75,95,125,45,75,95,510,20,425,hyper-cutter sand-veil poison-heal 
+473,mamoswine,ordinary,generation-iv,piloswine,ice,ground,110,130,80,70,60,80,530,25,2910,oblivious snow-cloak thick-fat 
+474,porygon-z,ordinary,generation-iv,porygon2,normal,,85,80,70,135,75,90,535,9,340,adaptability download analytic 
+475,gallade,ordinary,generation-iv,kirlia,psychic,fighting,68,125,65,65,115,80,518,16,520,steadfast sharpness justified 
+476,probopass,ordinary,generation-iv,nosepass,rock,steel,60,55,145,75,150,40,525,14,3400,sturdy magnet-pull sand-force 
+477,dusknoir,ordinary,generation-iv,dusclops,ghost,,45,100,135,65,135,45,525,22,1066,pressure frisk 
+478,froslass,ordinary,generation-iv,snorunt,ice,ghost,70,80,70,80,70,110,480,13,266,snow-cloak cursed-body 
+495,snivy,ordinary,generation-v,nothing,grass,,45,45,55,45,55,63,308,6,81,overgrow contrary 
+496,servine,ordinary,generation-v,snivy,grass,,60,60,75,60,75,83,413,8,160,overgrow contrary 
+497,serperior,ordinary,generation-v,servine,grass,,75,75,95,75,95,113,528,33,630,overgrow contrary 
+498,tepig,ordinary,generation-v,nothing,fire,,65,63,45,45,45,45,308,5,99,blaze thick-fat 
+499,pignite,ordinary,generation-v,tepig,fire,fighting,90,93,55,70,55,55,418,10,555,blaze thick-fat 
+500,emboar,ordinary,generation-v,pignite,fire,fighting,110,123,65,100,65,65,528,16,1500,blaze reckless 
+501,oshawott,ordinary,generation-v,nothing,water,,55,55,45,63,45,45,308,5,59,torrent shell-armor 
+502,dewott,ordinary,generation-v,oshawott,water,,75,75,60,83,60,60,413,8,245,torrent shell-armor 
+503,samurott,ordinary,generation-v,dewott,water,,95,100,85,108,70,70,528,15,946,torrent shell-armor 
+522,blitzle,ordinary,generation-v,nothing,electric,,45,60,32,50,32,76,295,8,298,lightning-rod motor-drive sap-sipper 
+523,zebstrika,ordinary,generation-v,blitzle,electric,,75,100,63,80,63,116,497,16,795,lightning-rod motor-drive sap-sipper 
+529,drilbur,ordinary,generation-v,nothing,ground,,60,85,40,30,45,68,328,3,85,sand-rush sand-force mold-breaker 
+530,excadrill,ordinary,generation-v,drilbur,ground,steel,110,135,60,50,65,88,508,7,404,sand-rush sand-force mold-breaker 
+532,timburr,ordinary,generation-v,nothing,fighting,,75,80,55,25,35,35,305,6,125,guts sheer-force iron-fist 
+533,gurdurr,ordinary,generation-v,timburr,fighting,,85,105,85,40,50,40,405,12,400,guts sheer-force iron-fist 
+534,conkeldurr,ordinary,generation-v,gurdurr,fighting,,105,140,95,55,65,45,505,14,870,guts sheer-force iron-fist 
+540,sewaddle,ordinary,generation-v,nothing,bug,grass,45,53,70,40,60,42,310,3,25,swarm chlorophyll overcoat 
+541,swadloon,ordinary,generation-v,sewaddle,bug,grass,55,63,90,50,80,42,380,5,73,leaf-guard chlorophyll overcoat 
+542,leavanny,ordinary,generation-v,swadloon,bug,grass,75,103,80,70,80,92,500,12,205,swarm chlorophyll overcoat 
+546,cottonee,ordinary,generation-v,nothing,grass,fairy,40,27,60,37,50,66,280,3,6,prankster infiltrator chlorophyll 
+547,whimsicott,ordinary,generation-v,cottonee,grass,fairy,60,67,85,77,75,116,480,7,66,prankster infiltrator chlorophyll 
+548,petilil,ordinary,generation-v,nothing,grass,,45,35,50,70,50,30,280,5,66,chlorophyll own-tempo leaf-guard 
+549,lilligant,ordinary,generation-v,petilil,grass,,70,60,75,110,75,90,480,11,163,chlorophyll own-tempo leaf-guard 
+550,basculin,ordinary,generation-v,nothing,water,,70,92,65,80,55,98,460,10,180,reckless adaptability mold-breaker 
+551,sandile,ordinary,generation-v,nothing,ground,dark,50,72,35,35,35,65,292,7,152,intimidate moxie anger-point 
+552,krokorok,ordinary,generation-v,sandile,ground,dark,60,82,45,45,45,74,351,10,334,intimidate moxie anger-point 
+553,krookodile,ordinary,generation-v,krokorok,ground,dark,95,117,80,65,70,92,519,15,963,intimidate moxie anger-point 
+559,scraggy,ordinary,generation-v,nothing,dark,fighting,50,75,70,35,70,48,348,6,118,shed-skin moxie intimidate 
+560,scrafty,ordinary,generation-v,scraggy,dark,fighting,65,90,115,45,115,58,488,11,300,shed-skin moxie intimidate 
+570,zorua,ordinary,generation-v,nothing,dark,,40,65,40,80,40,65,330,7,125,illusion 
+571,zoroark,ordinary,generation-v,zorua,dark,,60,105,60,120,60,105,510,16,811,illusion 
+572,minccino,ordinary,generation-v,nothing,normal,,55,50,40,40,40,75,300,4,58,cute-charm technician skill-link 
+573,cinccino,ordinary,generation-v,minccino,normal,,75,95,60,65,60,115,470,5,75,cute-charm technician skill-link 
+574,gothita,ordinary,generation-v,nothing,psychic,,45,30,50,55,65,45,290,4,58,frisk competitive shadow-tag 
+575,gothorita,ordinary,generation-v,gothita,psychic,,60,45,70,75,85,55,390,7,180,frisk competitive shadow-tag 
+576,gothitelle,ordinary,generation-v,gothorita,psychic,,70,55,95,95,110,65,490,15,440,frisk competitive shadow-tag 
+577,solosis,ordinary,generation-v,nothing,psychic,,45,30,40,105,50,20,290,3,10,overcoat magic-guard regenerator 
+578,duosion,ordinary,generation-v,solosis,psychic,,65,40,50,125,60,30,370,6,80,overcoat magic-guard regenerator 
+579,reuniclus,ordinary,generation-v,duosion,psychic,,110,65,75,125,85,30,490,10,201,overcoat magic-guard regenerator 
+580,ducklett,ordinary,generation-v,nothing,water,flying,62,44,50,44,50,55,305,5,55,keen-eye big-pecks hydration 
+581,swanna,ordinary,generation-v,ducklett,water,flying,75,87,63,87,63,98,473,13,242,keen-eye big-pecks hydration 
+585,deerling,ordinary,generation-v,nothing,normal,grass,60,60,50,40,50,75,335,6,195,chlorophyll sap-sipper serene-grace 
+586,sawsbuck,ordinary,generation-v,deerling,normal,grass,80,100,70,60,70,95,475,19,925,chlorophyll sap-sipper serene-grace 
+590,foongus,ordinary,generation-v,nothing,grass,poison,69,55,45,55,55,15,294,2,10,effect-spore regenerator 
+594,alomomola,ordinary,generation-v,nothing,water,,165,75,80,40,45,65,470,12,316,healer hydration regenerator 
+596,galvantula,ordinary,generation-v,joltik,bug,electric,70,77,60,97,60,108,472,8,143,compound-eyes unnerve swarm 
+602,tynamo,ordinary,generation-v,nothing,electric,,35,55,40,45,40,60,275,2,3,levitate 
+603,eelektrik,ordinary,generation-v,tynamo,electric,,65,85,70,75,70,40,405,12,220,levitate 
+604,eelektross,ordinary,generation-v,eelektrik,electric,,85,115,80,105,80,50,515,21,805,levitate 
+607,litwick,ordinary,generation-v,nothing,ghost,fire,50,30,55,65,55,20,275,3,31,flash-fire flame-body infiltrator 
+608,lampent,ordinary,generation-v,litwick,ghost,fire,60,40,60,95,60,55,370,6,130,flash-fire flame-body infiltrator 
+609,chandelure,ordinary,generation-v,lampent,ghost,fire,60,55,90,145,90,80,520,10,343,flash-fire flame-body infiltrator 
+610,axew,ordinary,generation-v,nothing,dragon,,46,87,60,30,40,57,320,6,180,rivalry mold-breaker unnerve 
+611,fraxure,ordinary,generation-v,axew,dragon,,66,117,70,40,50,67,410,10,360,rivalry mold-breaker unnerve 
+612,haxorus,ordinary,generation-v,fraxure,dragon,,76,147,90,60,70,97,540,18,1055,rivalry mold-breaker unnerve 
+613,cubchoo,ordinary,generation-v,nothing,ice,,55,70,40,60,40,40,305,5,85,snow-cloak slush-rush rattled 
+614,beartic,ordinary,generation-v,cubchoo,ice,,95,130,80,70,80,50,505,26,2600,snow-cloak slush-rush swift-swim 
+615,cryogonal,ordinary,generation-v,nothing,ice,,80,50,50,95,135,105,515,11,1480,levitate 
+619,mienfoo,ordinary,generation-v,nothing,fighting,,45,85,50,55,50,65,350,9,200,inner-focus regenerator reckless 
+620,mienshao,ordinary,generation-v,mienfoo,fighting,,65,125,60,95,60,105,510,14,355,inner-focus regenerator reckless 
+622,golett,ordinary,generation-v,nothing,ground,ghost,59,74,50,35,50,35,303,10,920,iron-fist klutz no-guard 
+623,golurk,ordinary,generation-v,golett,ground,ghost,89,124,80,55,80,55,483,28,3300,iron-fist klutz no-guard 
+624,pawniard,ordinary,generation-v,nothing,dark,steel,45,85,70,40,40,60,340,5,102,defiant inner-focus pressure 
+625,bisharp,ordinary,generation-v,pawniard,dark,steel,65,125,100,60,70,70,490,16,700,defiant inner-focus pressure 
+627,rufflet,ordinary,generation-v,nothing,normal,flying,70,83,50,37,50,60,350,5,105,keen-eye sheer-force hustle 
+628,braviary,ordinary,generation-v,rufflet,normal,flying,100,123,75,57,75,80,510,15,410,keen-eye sheer-force defiant 
+629,vullaby,ordinary,generation-v,nothing,dark,flying,70,55,75,45,65,60,370,5,90,big-pecks overcoat weak-armor 
+630,mandibuzz,ordinary,generation-v,vullaby,dark,flying,110,65,105,55,95,80,510,12,395,big-pecks overcoat weak-armor 
+634,zweilous,ordinary,generation-v,deino,dark,dragon,72,85,70,65,70,58,420,14,500,hustle 
+635,hydreigon,ordinary,generation-v,zweilous,dark,dragon,92,105,90,125,90,98,600,18,1600,levitate 
+636,larvesta,ordinary,generation-v,nothing,bug,fire,55,85,55,50,55,60,360,11,288,flame-body swarm 
+637,volcarona,ordinary,generation-v,larvesta,bug,fire,85,60,65,135,105,100,550,16,460,flame-body swarm 
+650,chespin,ordinary,generation-vi,nothing,grass,,56,61,65,48,45,38,313,4,90,overgrow bulletproof 
+651,quilladin,ordinary,generation-vi,chespin,grass,,61,78,95,56,58,57,405,7,290,overgrow bulletproof 
+652,chesnaught,ordinary,generation-vi,quilladin,grass,fighting,88,107,122,74,75,64,530,16,900,overgrow bulletproof 
+653,fennekin,ordinary,generation-vi,nothing,fire,,40,45,40,62,60,60,307,4,94,blaze magician 
+654,braixen,ordinary,generation-vi,fennekin,fire,,59,59,58,90,70,73,409,10,145,blaze magician 
+655,delphox,ordinary,generation-vi,braixen,fire,psychic,75,69,72,114,100,104,534,15,390,blaze magician 
+656,froakie,ordinary,generation-vi,nothing,water,,41,56,40,62,44,71,314,3,70,torrent protean 
+657,frogadier,ordinary,generation-vi,froakie,water,,54,63,52,83,56,97,405,6,109,torrent protean 
+658,greninja,ordinary,generation-vi,frogadier,water,dark,72,95,67,103,71,122,530,15,400,torrent protean 
+661,fletchling,ordinary,generation-vi,nothing,normal,flying,45,50,43,40,38,62,278,3,17,big-pecks gale-wings 
+662,fletchinder,ordinary,generation-vi,fletchling,fire,flying,62,73,55,56,52,84,382,7,160,flame-body gale-wings 
+663,talonflame,ordinary,generation-vi,fletchinder,fire,flying,78,81,71,74,69,126,499,12,245,flame-body gale-wings 
+664,scatterbug,ordinary,generation-vi,nothing,bug,,38,35,40,27,25,35,200,3,25,shield-dust compound-eyes friend-guard 
+665,spewpa,ordinary,generation-vi,scatterbug,bug,,45,22,60,27,30,29,213,3,84,shed-skin friend-guard 
+666,vivillon,ordinary,generation-vi,spewpa,bug,flying,80,52,50,90,50,89,411,12,170,shield-dust compound-eyes friend-guard 
+667,litleo,ordinary,generation-vi,nothing,fire,normal,62,50,58,73,54,72,369,6,135,rivalry unnerve moxie 
+668,pyroar,ordinary,generation-vi,litleo,fire,normal,86,68,72,109,66,106,507,15,815,rivalry unnerve moxie 
+670,floette,ordinary,generation-vi,flabebe,fairy,,54,45,47,75,98,52,371,2,9,flower-veil symbiosis 
+671,florges,ordinary,generation-vi,floette,fairy,,78,65,68,112,154,75,552,11,100,flower-veil symbiosis 
+672,skiddo,ordinary,generation-vi,nothing,grass,,66,65,48,62,57,52,350,9,310,sap-sipper grass-pelt 
+673,gogoat,ordinary,generation-vi,skiddo,grass,,123,100,62,97,81,68,531,17,910,sap-sipper grass-pelt 
+677,espurr,ordinary,generation-vi,nothing,psychic,,62,48,54,63,60,68,355,3,35,keen-eye infiltrator own-tempo 
+678,meowstic,ordinary,generation-vi,espurr,psychic,,74,48,76,83,81,104,466,6,85,keen-eye infiltrator prankster 
+686,inkay,ordinary,generation-vi,nothing,dark,psychic,53,54,53,37,46,45,288,4,35,contrary suction-cups infiltrator 
+687,malamar,ordinary,generation-vi,inkay,dark,psychic,86,92,88,68,75,73,482,15,470,contrary suction-cups infiltrator 
+690,skrelp,ordinary,generation-vi,nothing,poison,water,50,60,60,60,60,30,320,5,73,poison-point poison-touch adaptability 
+691,dragalge,ordinary,generation-vi,skrelp,poison,dragon,65,75,90,97,123,44,494,18,815,poison-point poison-touch adaptability 
+692,clauncher,ordinary,generation-vi,nothing,water,,50,53,62,58,63,44,330,5,83,mega-launcher 
+693,clawitzer,ordinary,generation-vi,clauncher,water,,71,73,88,120,89,59,500,13,353,mega-launcher 
+700,sylveon,ordinary,generation-vi,eevee,fairy,,95,65,65,110,130,60,525,10,235,cute-charm pixilate 
+701,hawlucha,ordinary,generation-vi,nothing,fighting,flying,78,92,75,74,63,118,500,8,215,limber unburden mold-breaker 
+702,dedenne,ordinary,generation-vi,nothing,electric,fairy,67,58,57,81,67,101,431,2,22,cheek-pouch pickup plus 
+703,carbink,ordinary,generation-vi,nothing,rock,fairy,50,50,150,50,150,50,500,3,57,clear-body sturdy 
+704,goomy,ordinary,generation-vi,nothing,dragon,,45,50,35,55,75,40,300,3,28,sap-sipper hydration gooey 
+705,sliggoo,ordinary,generation-vi,goomy,dragon,,68,75,53,83,113,60,452,8,175,sap-sipper hydration gooey 
+706,goodra,ordinary,generation-vi,sliggoo,dragon,,90,100,70,110,150,80,600,20,1505,sap-sipper hydration gooey 
+707,klefki,ordinary,generation-vi,nothing,steel,fairy,57,80,91,80,87,75,470,2,30,prankster magician 
+708,phantump,ordinary,generation-vi,nothing,ghost,grass,43,70,48,50,60,38,309,4,70,natural-cure frisk harvest 
+709,trevenant,ordinary,generation-vi,phantump,ghost,grass,85,110,76,65,82,56,474,15,710,natural-cure frisk harvest 
+712,bergmite,ordinary,generation-vi,nothing,ice,,55,69,85,32,35,28,304,10,995,own-tempo ice-body sturdy 
+713,avalugg,ordinary,generation-vi,bergmite,ice,,95,117,184,44,46,28,514,20,5050,own-tempo ice-body sturdy 
+714,noibat,ordinary,generation-vi,nothing,flying,dragon,40,30,35,45,40,55,245,5,80,frisk infiltrator telepathy 
+715,noivern,ordinary,generation-vi,noibat,flying,dragon,85,70,80,97,80,123,535,15,850,frisk infiltrator telepathy 
+722,rowlet,ordinary,generation-vii,nothing,grass,flying,68,55,55,50,50,42,320,3,15,overgrow long-reach 
+723,dartrix,ordinary,generation-vii,rowlet,grass,flying,78,75,75,70,70,52,420,7,160,overgrow long-reach 
+724,decidueye,ordinary,generation-vii,dartrix,grass,ghost,78,107,75,100,100,70,530,16,366,overgrow long-reach 
+725,litten,ordinary,generation-vii,nothing,fire,,45,65,40,60,40,70,320,4,43,blaze intimidate 
+726,torracat,ordinary,generation-vii,litten,fire,,65,85,50,80,50,90,420,7,250,blaze intimidate 
+727,incineroar,ordinary,generation-vii,torracat,fire,dark,95,115,90,80,90,60,530,18,830,blaze intimidate 
+728,popplio,ordinary,generation-vii,nothing,water,,50,54,54,66,56,40,320,4,75,torrent liquid-voice 
+729,brionne,ordinary,generation-vii,popplio,water,,60,69,69,91,81,50,420,6,175,torrent liquid-voice 
+730,primarina,ordinary,generation-vii,brionne,water,fairy,80,74,74,126,116,60,530,18,440,torrent liquid-voice 
+731,pikipek,ordinary,generation-vii,nothing,normal,flying,35,75,30,30,30,65,265,3,12,keen-eye skill-link pickup 
+732,trumbeak,ordinary,generation-vii,pikipek,normal,flying,55,85,50,40,50,75,355,6,148,keen-eye skill-link pickup 
+733,toucannon,ordinary,generation-vii,trumbeak,normal,flying,80,120,75,75,75,60,485,11,260,keen-eye skill-link sheer-force 
+734,yungoos,ordinary,generation-vii,nothing,normal,,48,70,30,30,30,45,253,4,60,stakeout strong-jaw adaptability 
+735,gumshoos,ordinary,generation-vii,yungoos,normal,,88,110,60,55,60,45,418,7,142,stakeout strong-jaw adaptability 
+736,grubbin,ordinary,generation-vii,nothing,bug,,47,62,45,55,45,46,300,4,44,swarm 
+737,charjabug,ordinary,generation-vii,grubbin,bug,electric,57,82,95,55,75,36,400,5,105,battery 
+738,vikavolt,ordinary,generation-vii,charjabug,bug,electric,77,70,90,145,75,43,500,15,450,levitate 
+739,crabrawler,ordinary,generation-vii,nothing,fighting,,47,82,57,42,47,63,338,6,70,hyper-cutter iron-fist anger-point 
+740,crabominable,ordinary,generation-vii,crabrawler,fighting,ice,97,132,77,62,67,43,478,17,1800,hyper-cutter iron-fist anger-point 
+741,oricorio,ordinary,generation-vii,nothing,fire,flying,75,70,70,98,70,93,476,6,34,dancer 
+742,cutiefly,ordinary,generation-vii,nothing,bug,fairy,40,45,40,55,40,84,304,1,2,honey-gather shield-dust sweet-veil 
+743,ribombee,ordinary,generation-vii,cutiefly,bug,fairy,60,55,60,95,70,124,464,2,5,honey-gather shield-dust sweet-veil 
+744,rockruff,ordinary,generation-vii,nothing,rock,,45,65,40,30,40,60,280,5,92,keen-eye vital-spirit steadfast 
+747,mareanie,ordinary,generation-vii,nothing,poison,water,50,53,62,43,52,45,305,4,80,merciless limber regenerator 
+748,toxapex,ordinary,generation-vii,mareanie,poison,water,50,63,152,53,142,35,495,7,145,merciless limber regenerator 
+749,mudbray,ordinary,generation-vii,nothing,ground,,70,100,70,45,55,45,385,10,1100,own-tempo stamina inner-focus 
+750,mudsdale,ordinary,generation-vii,mudbray,ground,,100,125,100,55,85,35,500,25,9200,own-tempo stamina inner-focus 
+751,dewpider,ordinary,generation-vii,nothing,water,bug,38,40,52,40,72,27,269,3,40,water-bubble water-absorb 
+752,araquanid,ordinary,generation-vii,dewpider,water,bug,68,70,92,50,132,42,454,18,820,water-bubble water-absorb 
+753,fomantis,ordinary,generation-vii,nothing,grass,,40,55,35,50,35,35,250,3,15,leaf-guard contrary 
+754,lurantis,ordinary,generation-vii,fomantis,grass,,70,105,90,80,90,45,480,9,185,leaf-guard contrary 
+757,salandit,ordinary,generation-vii,nothing,poison,fire,48,44,40,71,40,77,320,6,48,corrosion oblivious 
+758,salazzle,ordinary,generation-vii,salandit,poison,fire,68,64,60,111,60,117,480,12,222,corrosion oblivious 
+761,bounsweet,ordinary,generation-vii,nothing,grass,,42,30,38,30,38,32,210,3,32,leaf-guard oblivious sweet-veil 
+762,steenee,ordinary,generation-vii,bounsweet,grass,,52,40,48,40,48,62,290,7,82,leaf-guard oblivious sweet-veil 
+763,tsareena,ordinary,generation-vii,steenee,grass,,72,120,98,50,98,72,510,12,214,leaf-guard queenly-majesty sweet-veil 
+764,comfey,ordinary,generation-vii,nothing,fairy,,51,52,90,82,110,100,485,1,3,flower-veil triage natural-cure 
+765,oranguru,ordinary,generation-vii,nothing,normal,psychic,90,60,80,90,110,60,490,15,760,inner-focus telepathy symbiosis 
+766,passimian,ordinary,generation-vii,nothing,fighting,,100,120,90,40,60,80,490,20,828,receiver defiant 
+769,sandygast,ordinary,generation-vii,nothing,ghost,ground,55,55,80,70,45,15,320,5,700,water-compaction sand-veil 
+770,palossand,ordinary,generation-vii,sandygast,ghost,ground,85,75,110,100,75,35,480,13,2500,water-compaction sand-veil 
+774,minior,ordinary,generation-vii,nothing,rock,flying,60,60,100,60,100,60,440,3,400,shields-down 
+775,komala,ordinary,generation-vii,nothing,normal,,65,115,65,75,95,65,480,4,199,comatose 
+778,mimikyu,ordinary,generation-vii,nothing,ghost,fairy,55,90,80,50,105,96,476,2,7,disguise 
+779,bruxish,ordinary,generation-vii,nothing,water,psychic,68,105,70,70,70,92,475,9,190,dazzling strong-jaw wonder-skin 
+782,jangmo-o,ordinary,generation-vii,nothing,dragon,,45,55,65,45,45,45,300,6,297,bulletproof soundproof overcoat 
+783,hakamo-o,ordinary,generation-vii,jangmo-o,dragon,fighting,55,75,90,65,70,65,420,12,470,bulletproof soundproof overcoat 
+784,kommo-o,ordinary,generation-vii,hakamo-o,dragon,fighting,75,110,125,100,105,85,600,16,782,bulletproof soundproof overcoat 
+810,grookey,ordinary,generation-viii,nothing,grass,,50,65,50,40,40,65,310,3,50,overgrow grassy-surge 
+812,rillaboom,ordinary,generation-viii,thwackey,grass,,100,125,90,60,70,85,530,21,900,overgrow grassy-surge 
+813,scorbunny,ordinary,generation-viii,nothing,fire,,50,71,40,40,40,69,310,3,45,blaze libero 
+814,raboot,ordinary,generation-viii,scorbunny,fire,,65,86,60,55,60,94,420,6,90,blaze libero 
+815,cinderace,ordinary,generation-viii,raboot,fire,,80,116,75,65,75,119,530,14,330,blaze libero 
+816,sobble,ordinary,generation-viii,nothing,water,,50,40,40,70,40,70,310,3,40,torrent sniper 
+817,drizzile,ordinary,generation-viii,sobble,water,,65,60,55,95,55,90,420,7,115,torrent sniper 
+818,inteleon,ordinary,generation-viii,drizzile,water,,70,85,65,125,65,120,530,19,452,torrent sniper 
+819,skwovet,ordinary,generation-viii,nothing,normal,,70,55,55,35,35,25,275,3,25,cheek-pouch gluttony 
+820,greedent,ordinary,generation-viii,skwovet,normal,,120,95,95,55,75,20,460,6,60,cheek-pouch gluttony 
+821,rookidee,ordinary,generation-viii,nothing,flying,,38,47,35,33,35,57,245,2,18,keen-eye unnerve big-pecks 
+822,corvisquire,ordinary,generation-viii,rookidee,flying,,68,67,55,43,55,77,365,8,160,keen-eye unnerve big-pecks 
+823,corviknight,ordinary,generation-viii,corvisquire,flying,steel,98,87,105,53,85,67,495,22,750,pressure unnerve mirror-armor 
+833,chewtle,ordinary,generation-viii,nothing,water,,50,64,50,38,38,44,284,3,85,strong-jaw shell-armor swift-swim 
+834,drednaw,ordinary,generation-viii,chewtle,water,rock,90,115,90,48,68,74,485,10,1155,strong-jaw shell-armor swift-swim 
+837,rolycoly,ordinary,generation-viii,nothing,rock,,30,40,50,40,50,30,240,3,120,steam-engine heatproof flash-fire 
+838,carkol,ordinary,generation-viii,rolycoly,rock,fire,80,60,90,60,70,50,410,11,780,steam-engine flame-body flash-fire 
+839,coalossal,ordinary,generation-viii,carkol,rock,fire,110,80,120,80,90,30,510,28,3105,steam-engine flame-body flash-fire 
+840,applin,ordinary,generation-viii,nothing,grass,dragon,40,40,80,40,40,20,260,2,5,ripen gluttony bulletproof 
+841,flapple,ordinary,generation-viii,applin,grass,dragon,70,110,80,95,60,70,485,3,10,ripen gluttony hustle 
+842,appletun,ordinary,generation-viii,applin,grass,dragon,110,85,80,100,80,30,485,4,130,ripen gluttony thick-fat 
+843,silicobra,ordinary,generation-viii,nothing,ground,,52,57,75,35,50,46,315,22,76,sand-spit shed-skin sand-veil 
+844,sandaconda,ordinary,generation-viii,silicobra,ground,,72,107,125,65,70,71,510,38,655,sand-spit shed-skin sand-veil 
+845,cramorant,ordinary,generation-viii,nothing,flying,water,70,85,55,85,95,85,475,8,180,gulp-missile 
+846,arrokuda,ordinary,generation-viii,nothing,water,,41,63,40,40,30,66,280,5,10,swift-swim propeller-tail 
+847,barraskewda,ordinary,generation-viii,arrokuda,water,,61,123,60,60,50,136,490,13,300,swift-swim propeller-tail 
+848,toxel,baby,generation-viii,nothing,electric,poison,40,38,35,54,35,40,242,4,110,rattled static klutz 
+849,toxtricity,ordinary,generation-viii,toxel,electric,poison,75,98,70,114,70,75,502,16,400,punk-rock plus technician 
+854,sinistea,ordinary,generation-viii,nothing,ghost,,40,45,45,74,54,50,308,1,2,weak-armor cursed-body 
+855,polteageist,ordinary,generation-viii,sinistea,ghost,,60,65,65,134,114,70,508,2,4,weak-armor cursed-body 
+856,hatenna,ordinary,generation-viii,nothing,psychic,,42,30,45,56,53,39,265,4,34,healer anticipation magic-bounce 
+857,hattrem,ordinary,generation-viii,hatenna,psychic,,57,40,65,86,73,49,370,6,48,healer anticipation magic-bounce 
+858,hatterene,ordinary,generation-viii,hattrem,psychic,fairy,57,90,95,136,103,29,510,21,51,healer anticipation magic-bounce 
+859,impidimp,ordinary,generation-viii,nothing,dark,fairy,45,45,30,55,40,50,265,4,55,prankster frisk pickpocket 
+860,morgrem,ordinary,generation-viii,impidimp,dark,fairy,65,60,45,75,55,70,370,8,125,prankster frisk pickpocket 
+861,grimmsnarl,ordinary,generation-viii,morgrem,dark,fairy,95,120,65,95,75,60,510,15,610,prankster frisk pickpocket 
+863,perrserker,ordinary,generation-viii,meowth,steel,,70,110,100,50,60,50,440,8,280,battle-armor tough-claws steely-spirit 
+868,milcery,ordinary,generation-viii,nothing,fairy,,45,40,40,50,61,34,270,2,3,sweet-veil aroma-veil 
+869,alcremie,ordinary,generation-viii,milcery,fairy,,65,60,75,110,121,64,495,3,5,sweet-veil aroma-veil 
+870,falinks,ordinary,generation-viii,nothing,fighting,,65,100,100,70,60,75,470,30,620,battle-armor defiant 
+871,pincurchin,ordinary,generation-viii,nothing,electric,,48,101,95,91,85,15,435,3,10,lightning-rod electric-surge 
+872,snom,ordinary,generation-viii,nothing,ice,bug,30,25,35,45,30,20,185,3,38,shield-dust ice-scales 
+873,frosmoth,ordinary,generation-viii,snom,ice,bug,70,65,60,125,90,65,475,13,420,shield-dust ice-scales 
+874,stonjourner,ordinary,generation-viii,nothing,rock,,100,125,135,20,20,70,470,25,5200,power-spot 
+875,eiscue,ordinary,generation-viii,nothing,ice,,75,80,110,65,90,50,470,14,890,ice-face 
+876,indeedee,ordinary,generation-viii,nothing,psychic,normal,60,65,55,105,95,95,475,9,280,inner-focus synchronize psychic-surge 
+877,morpeko,ordinary,generation-viii,nothing,electric,dark,58,95,58,70,58,97,436,3,30,hunger-switch 
+878,cufant,ordinary,generation-viii,nothing,steel,,72,80,49,40,49,40,330,12,1000,sheer-force heavy-metal 
+879,copperajah,ordinary,generation-viii,cufant,steel,,122,130,69,80,69,30,500,30,6500,sheer-force heavy-metal 
+884,duraludon,ordinary,generation-viii,nothing,steel,dragon,70,95,115,120,50,85,535,18,400,light-metal heavy-metal stalwart 
+885,dreepy,ordinary,generation-viii,nothing,dragon,ghost,28,60,30,40,30,82,270,5,20,clear-body infiltrator cursed-body 
+886,drakloak,ordinary,generation-viii,dreepy,dragon,ghost,68,80,50,60,50,102,410,14,110,clear-body infiltrator cursed-body 
+887,dragapult,ordinary,generation-viii,drakloak,dragon,ghost,88,120,75,100,75,142,600,30,500,clear-body infiltrator cursed-body 
+899,wyrdeer,ordinary,generation-viii,stantler,normal,psychic,103,105,72,105,75,65,525,18,951,intimidate frisk sap-sipper 
+900,kleavor,ordinary,generation-viii,scyther,bug,rock,70,135,95,45,70,85,500,18,890,swarm sheer-force sharpness 
+901,ursaluna,ordinary,generation-viii,ursaring,ground,normal,130,140,105,45,80,50,550,24,2900,guts bulletproof unnerve 
+902,basculegion,ordinary,generation-viii,basculin,water,ghost,120,112,65,80,75,78,530,30,1100,swift-swim adaptability mold-breaker 
+903,sneasler,ordinary,generation-viii,sneasel,fighting,poison,80,130,60,40,80,120,510,13,430,pressure unburden poison-touch 
+904,overqwil,ordinary,generation-viii,qwilfish,dark,poison,85,115,95,65,65,85,510,25,605,poison-point swift-swim intimidate 
+906,sprigatito,ordinary,generation-ix,nothing,grass,,40,61,54,45,45,65,310,4,41,overgrow protean 
+907,floragato,ordinary,generation-ix,sprigatito,grass,,61,80,63,60,63,83,410,9,122,overgrow protean 
+908,meowscarada,ordinary,generation-ix,floragato,grass,dark,76,110,70,81,70,123,530,15,312,overgrow protean 
+909,fuecoco,ordinary,generation-ix,nothing,fire,,67,45,59,63,40,36,310,4,98,blaze unaware 
+910,crocalor,ordinary,generation-ix,fuecoco,fire,,81,55,78,90,58,49,411,10,307,blaze unaware 
+911,skeledirge,ordinary,generation-ix,crocalor,fire,ghost,104,75,100,110,75,66,530,16,3265,blaze unaware 
+912,quaxly,ordinary,generation-ix,nothing,water,,55,65,45,50,45,50,310,5,61,torrent moxie 
+913,quaxwell,ordinary,generation-ix,quaxly,water,,70,85,65,65,60,65,410,12,215,torrent moxie 
+914,quaquaval,ordinary,generation-ix,quaxwell,water,fighting,85,120,80,85,75,85,530,18,619,torrent moxie 
+915,lechonk,ordinary,generation-ix,nothing,normal,,54,45,40,35,45,35,254,5,102,aroma-veil gluttony thick-fat 
+916,oinkologne,ordinary,generation-ix,lechonk,normal,,110,100,75,59,80,65,489,10,1200,lingering-aroma gluttony thick-fat 
+917,tarountula,ordinary,generation-ix,nothing,bug,,35,41,45,29,40,20,210,3,40,insomnia stakeout 
+918,spidops,ordinary,generation-ix,tarountula,bug,,60,79,92,52,86,35,404,10,165,insomnia stakeout 
+919,nymble,ordinary,generation-ix,nothing,bug,,33,46,40,21,25,45,210,2,10,swarm tinted-lens 
+920,lokix,ordinary,generation-ix,nymble,bug,dark,71,102,78,52,55,92,450,10,175,swarm tinted-lens 
+921,pawmi,ordinary,generation-ix,nothing,electric,,45,50,20,40,25,60,240,3,25,static natural-cure iron-fist 
+922,pawmo,ordinary,generation-ix,pawmi,electric,fighting,60,75,40,50,40,85,350,4,65,volt-absorb natural-cure iron-fist 
+923,pawmot,ordinary,generation-ix,pawmo,electric,fighting,70,115,70,70,60,105,490,9,410,volt-absorb natural-cure iron-fist 
+924,tandemaus,ordinary,generation-ix,nothing,normal,,50,50,45,40,45,75,305,3,18,run-away pickup own-tempo 
+925,maushold,ordinary,generation-ix,tandemaus,normal,,74,75,70,65,75,111,470,3,23,friend-guard cheek-pouch technician 
+926,fidough,ordinary,generation-ix,nothing,fairy,,37,55,70,30,55,65,312,3,109,own-tempo klutz 
+927,dachsbun,ordinary,generation-ix,fidough,fairy,,57,80,115,50,80,95,477,5,149,well-baked-body aroma-veil 
+928,smoliv,ordinary,generation-ix,nothing,grass,normal,41,35,45,58,51,30,260,3,65,early-bird harvest 
+929,dolliv,ordinary,generation-ix,smoliv,grass,normal,52,53,60,78,78,33,354,6,119,early-bird harvest 
+930,arboliva,ordinary,generation-ix,dolliv,grass,normal,78,69,90,125,109,39,510,14,482,seed-sower harvest 
+931,squawkabilly,ordinary,generation-ix,nothing,normal,flying,82,96,51,45,51,92,417,6,24,intimidate hustle guts 
+932,nacli,ordinary,generation-ix,nothing,rock,,55,55,75,35,35,25,280,4,160,purifying-salt sturdy clear-body 
+933,naclstack,ordinary,generation-ix,nacli,rock,,60,60,100,35,65,35,355,6,1050,purifying-salt sturdy clear-body 
+934,garganacl,ordinary,generation-ix,naclstack,rock,,100,100,130,45,90,35,500,23,2400,purifying-salt sturdy clear-body 
+935,charcadet,ordinary,generation-ix,nothing,fire,,40,50,40,50,40,35,255,6,105,flash-fire flame-body 
+936,armarouge,ordinary,generation-ix,charcadet,fire,psychic,85,60,100,125,80,75,525,15,850,flash-fire weak-armor 
+937,ceruledge,ordinary,generation-ix,charcadet,fire,ghost,75,125,80,60,100,85,525,16,620,flash-fire weak-armor 
+938,tadbulb,ordinary,generation-ix,nothing,electric,,61,31,41,59,35,45,272,3,4,own-tempo static damp 
+939,bellibolt,ordinary,generation-ix,tadbulb,electric,,109,64,91,103,83,45,495,12,1130,electromorphosis static damp 
+940,wattrel,ordinary,generation-ix,nothing,electric,flying,40,40,35,55,40,70,280,4,36,wind-power volt-absorb competitive 
+941,kilowattrel,ordinary,generation-ix,wattrel,electric,flying,70,70,60,105,60,125,490,14,386,wind-power volt-absorb competitive 
+942,maschiff,ordinary,generation-ix,nothing,dark,,60,78,60,40,51,51,340,5,160,intimidate run-away stakeout 
+943,mabosstiff,ordinary,generation-ix,maschiff,dark,,80,120,90,60,70,85,505,11,610,intimidate guard-dog stakeout 
+944,shroodle,ordinary,generation-ix,nothing,poison,normal,40,65,35,40,35,75,290,2,7,unburden pickpocket prankster 
+946,bramblin,ordinary,generation-ix,nothing,grass,ghost,40,65,30,45,35,60,275,6,6,wind-rider infiltrator 
+947,brambleghast,ordinary,generation-ix,bramblin,grass,ghost,55,115,70,80,70,90,480,12,60,wind-rider infiltrator 
+948,toedscool,ordinary,generation-ix,nothing,ground,grass,40,40,35,50,100,70,335,9,330,mycelium-might mycelium-might 
+949,toedscruel,ordinary,generation-ix,toedscool,ground,grass,80,70,65,80,120,100,515,19,580,mycelium-might mycelium-might 
+950,klawf,ordinary,generation-ix,nothing,rock,,70,100,115,35,55,75,450,13,790,anger-shell shell-armor regenerator 
+951,capsakid,ordinary,generation-ix,nothing,grass,,50,62,40,62,40,50,304,3,30,chlorophyll insomnia klutz 
+952,scovillain,ordinary,generation-ix,capsakid,grass,fire,65,108,65,108,65,75,486,9,150,chlorophyll insomnia moody 
+953,rellor,ordinary,generation-ix,nothing,bug,,41,50,60,31,58,30,270,2,10,compound-eyes shed-skin 
+954,rabsca,ordinary,generation-ix,rellor,bug,psychic,75,50,85,115,100,45,470,3,35,synchronize telepathy 
+955,flittle,ordinary,generation-ix,nothing,psychic,,30,35,30,55,30,75,255,2,15,anticipation frisk speed-boost 
+956,espathra,ordinary,generation-ix,flittle,psychic,,95,60,60,101,60,105,481,19,900,opportunist frisk speed-boost 
+957,tinkatink,ordinary,generation-ix,nothing,fairy,steel,50,45,45,35,64,58,297,4,89,mold-breaker own-tempo pickpocket 
+958,tinkatuff,ordinary,generation-ix,tinkatink,fairy,steel,65,55,55,45,82,78,380,7,591,mold-breaker own-tempo pickpocket 
+959,tinkaton,ordinary,generation-ix,tinkatuff,fairy,steel,85,75,77,70,105,94,506,7,1128,mold-breaker own-tempo pickpocket 
+960,wiglett,ordinary,generation-ix,nothing,water,,10,55,25,35,25,95,245,12,18,gooey rattled sand-veil 
+961,wugtrio,ordinary,generation-ix,wiglett,water,,35,100,50,50,70,120,425,12,54,gooey rattled sand-veil 
+962,bombirdier,ordinary,generation-ix,nothing,flying,dark,70,103,85,60,85,82,485,15,429,big-pecks keen-eye rocky-payload 
+963,finizen,ordinary,generation-ix,nothing,water,,70,45,40,45,40,75,315,13,602,water-veil water-veil 
+964,palafin,ordinary,generation-ix,finizen,water,,100,70,72,53,62,100,457,13,602,zero-to-hero zero-to-hero 
+965,varoom,ordinary,generation-ix,nothing,steel,poison,45,70,63,30,45,47,300,10,350,overcoat slow-start 
+966,revavroom,ordinary,generation-ix,varoom,steel,poison,80,119,90,54,67,90,500,18,1200,overcoat filter 
+967,cyclizar,ordinary,generation-ix,nothing,dragon,normal,70,95,65,85,65,121,501,16,630,shed-skin regenerator 
+968,orthworm,ordinary,generation-ix,nothing,steel,,70,85,145,60,55,65,480,25,3100,earth-eater sand-veil 
+969,glimmet,ordinary,generation-ix,nothing,rock,poison,48,35,42,105,60,60,350,7,80,toxic-debris corrosion 
+970,glimmora,ordinary,generation-ix,glimmet,rock,poison,83,55,90,130,81,86,525,15,450,toxic-debris corrosion 
+971,greavard,ordinary,generation-ix,nothing,ghost,,50,61,60,30,55,34,290,6,350,pickup fluffy 
+972,houndstone,ordinary,generation-ix,greavard,ghost,,72,101,100,50,97,68,488,20,150,sand-rush fluffy 
+973,flamigo,ordinary,generation-ix,nothing,flying,fighting,82,115,74,75,64,90,500,16,370,scrappy tangled-feet costar 
+974,cetoddle,ordinary,generation-ix,nothing,ice,,108,68,45,30,40,43,334,12,450,thick-fat snow-cloak sheer-force 
+975,cetitan,ordinary,generation-ix,cetoddle,ice,,170,113,65,45,55,73,521,45,7000,thick-fat slush-rush sheer-force 
+976,veluza,ordinary,generation-ix,nothing,water,psychic,90,102,73,78,65,70,478,25,900,mold-breaker sharpness 
+977,dondozo,ordinary,generation-ix,nothing,water,,150,100,115,65,65,35,530,120,2200,unaware oblivious water-veil 
+979,annihilape,ordinary,generation-ix,primeape,fighting,ghost,110,115,80,50,90,90,535,12,560,vital-spirit inner-focus defiant 
+980,clodsire,ordinary,generation-ix,wooper,poison,ground,130,75,60,45,100,20,430,18,2230,poison-point water-absorb unaware 
+981,farigiraf,ordinary,generation-ix,girafarig,normal,psychic,120,90,70,110,70,60,520,32,1600,cud-chew armor-tail sap-sipper 
+982,dudunsparce,ordinary,generation-ix,dunsparce,normal,,125,100,80,85,75,55,520,36,392,serene-grace run-away rattled 
+983,kingambit,ordinary,generation-ix,bisharp,dark,steel,100,135,120,60,85,50,550,20,1200,defiant supreme-overlord pressure 
+996,frigibax,ordinary,generation-ix,nothing,dragon,ice,65,75,45,35,45,55,320,5,170,thermal-exchange ice-body 
+998,baxcalibur,ordinary,generation-ix,arctibax,dragon,ice,115,145,92,75,86,87,600,21,2100,thermal-exchange ice-body 
+1000,gholdengo,ordinary,generation-ix,gimmighoul,steel,ghost,87,60,95,133,91,84,550,12,300,good-as-gold good-as-gold 
+1011,dipplin,ordinary,generation-ix,applin,grass,dragon,80,80,110,95,80,40,485,4,97,supersweet-syrup gluttony sticky-hold 
+1012,poltchageist,ordinary,generation-ix,nothing,grass,ghost,40,45,45,74,54,50,308,1,11,hospitality heatproof 
+1013,sinistcha,ordinary,generation-ix,poltchageist,grass,ghost,71,60,106,121,80,70,508,2,22,hospitality heatproof 
+1018,archaludon,ordinary,generation-ix,duraludon,steel,dragon,90,105,130,125,65,85,600,20,600,stamina sturdy stalwart 
+1019,hydrapple,ordinary,generation-ix,dipplin,grass,dragon,106,80,110,120,80,44,540,18,930,supersweet-syrup regenerator sticky-hold 
+,alolan raichu,ordinary,,pikachu,electric,psychic,60,85,50,95,85,110,,,,Surge Surfer
+,alolan sandshrew,ordinary,,nothing,ice,steel,50,75,90,10,35,40,,,,Snow-cloak slush-rush 
+,Alolan Sandslash,ordinary,,nothing,ice,steel,75,100,120,25,65,65,,,,Snow-cloak slush-rush 
+,Alolan Vulpix,ordinary,,nothing,ice,,38,41,40,50,65,65,,,,Snow-cloak snow-warning
+,Alolan Ninetales,ordinary,,nothing,ice,fairy,73,67,75,81,100,109,,,,Snow-cloak snow-warning
+,Alolan Digglett,ordinary,,nothing,ground,steel,10,55,30,35,45,90,,,,sand-veil tangling-hair sand-force
+,Alolan Dugtrio,ordinary,,nothing,ground,steel,35,100,60,50,70,110,,,,sand-veil tangling-hair sand-force
+,Alolan Meowth,ordinary,,nothing,dark,,40,35,35,50,40,90,,,,pickup technician rattled
+,Galarian Meowth,ordinary,,nothing,steel,,50,65,55,40,40,40,,,,pickup tough-claws unnerve
+,Alolan Persian,ordinary,,nothing,dark,,65,60,60,75,65,115,,,,Fur-coat technician rattled
+,Hsuian Growlithe,ordinary,,nothing,fire,rock,60,75,45,65,50,55,,,,intimidate flash-fire rock-head
+,Hsuian Arcanine,ordinary,,nothing,fire,rock,95,115,80,95,80,90,,,,intimidate flash-fire rock-head
+,Alolan Geodude,ordinary,,nothing,rock,electric,40,80,100,30,30,20,,,,magnet-pull sturdy galvanize
+,Alolan Graveler,ordinary,,nothing,rock,electric,55,95,115,45,45,35,,,,magnet-pull sturdy sand-veil
+,Alolan Golem,ordinary,,nothing,rock,electric,80,120,130,55,65,45,,,,magnet-pull sturdy galvanize
+,Galarian Slowpoke,ordinary,,nothing,psychic,,90,65,65,40,40,15,,,,gluttony own-tempo regenerator
+,Alolan Grimer,ordinary,,nothing,poison,dark,80,80,50,40,50,25,,,,gluttony poison-touch power-of-alchemy
+,Alolan Muk,ordinary,,nothing,poison,dark,105,105,75,65,100,50,,,,gluttony poison-touch power-of-alchemy
+,Hsuian Voltorb,ordinary,,nothing,electric,grass,40,30,50,55,55,100,,,,soundproof static aftermath 
+,Hsuian Electrode,ordinary,,nothing,electric,grass,60,50,70,80,80,150,,,,soundproof static aftermath 
+,Alolan Exegguter,ordinary,,nothing,grass,dragon,95,105,85,125,75,45,,,,frisk harvest
+,Galarian Weezing,ordinary,,nothing,poison,fairy,65,90,120,85,70,60,,,,levitate neutralizing-gas misty-surge 
+,Paldean Tauros (Combat Breed),ordinary,,nothing,fighting,,75,110,105,30,70,100,,,,intimidate anger-point cud-chew
+,Paldean Tauros (Blaze Breed),ordinary,,nothing,fighting,fire,75,110,105,30,70,100,,,,intimidate anger-point cud-chew
+,Paldean Tauros (Aqua Breed),ordinary,,nothing,fighting,water,75,110,105,30,70,100,,,,intimidate anger-point cud-chew
+,Hsuian Typhlosion,ordinary,,nothing,fire,ghost,73,84,78,119,85,95,,,,blaze frisk
+,Paldean Wooper,ordinary,,nothing,poison,ground,55,45,45,25,25,15,,,,poison-point water-absorb unaware 
+,Galarian Slowking,ordinary,,nothing,poison,psychic,95,65,80,110,110,30,,,,Curious-medicine own-tempo regenerator
+,Hsuian Qwilfish,ordinary,,nothing,dark,poison,65,95,85,55,55,85,,,,poison-point swift-swim intimidate 
+,Hsuian Sneasel,ordinary,,nothing,fighting,poison,55,95,55,35,75,115,,,,inner-focus keen-eye pickpocket 
+,Hsuian Samurott,ordinary,,nothing,water,dark,90,108,80,100,65,85,,,,torrent sharpness
+,Hsuian Lilligant,ordinary,,nothing,grass,fighting,70,105,75,50,75,105,,,,chlorophyll hustle leaf-guard
+,Hsuian Zorua,ordinary,,nothing,normal,ghost,35,60,40,85,40,70,,,,illusion 
+,Hsuian Zoroark,ordinary,,nothing,normal,ghost,55,100,60,125,60,110,,,,illusion 
+,Hsuian Braviary,ordinary,,nothing,psychic,flying,110,83,70,112,70,65,,,,keen-eye sheer-force tinted-lens
+,Hsuian Sliggoo,ordinary,,nothing,steel,dragon,58,75,83,83,113,40,,,,sap-sipper shell-armor gooey
+,Hsuian Goodra,ordinary,,nothing,steel,dragon,80,100,100,110,150,60,,,,sap-sipper shell-armor gooey
+,Hsuian Avalugg,ordinary,,nothing,ice,rock,95,127,184,34,36,38,,,,strong-jaw ice-body sturdy
+,Hsuian Decidueye,ordinary,,nothing,grass,fighting,88,112,80,95,95,60,,,,overgrow scrappy
+,Bloodmoon Ursaluna,ordinary,,nothing,ground,normal,113,70,120,135,65,52,,,,Minds-eye
+,Tatsugiri ,ordinary,,nothing,dragon,water,68,50,60,120,95,82,,,,Storm-drain commander
